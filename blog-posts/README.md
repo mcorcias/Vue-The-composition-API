@@ -15,5 +15,15 @@ npm run serve
 npm run build
 ```
 
+### Install JSON server for Data  - In new terminal window
+```
+npm install json-server
+```
+
+### Run JSON server for Data
+```
+npx json-server --watch data/db.json
+```
+
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
